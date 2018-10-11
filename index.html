@@ -5,15 +5,15 @@
 		<title>Console Tricks!</title>
 	</head>
 	<body>
-		<p onClick="makeGreen()">×BREAK×DOWN×</p>
+
+		<p style="font-size: 24px" onClick="makeGreen()">Please for the love of god please don't click me!</p>
 
 		<script>
 			const dogs = [{ name: 'Snickers', age: 2 }, { name: 'hugo', age: 8 }];
 
 			function makeGreen() {
 				const p = document.querySelector('p');
-				p.style.color = '#BADA55';
-				p.style.fontSize = '50px';
+				p.innerHTML = "<a href=\"https://imgflip.com/i/2juom6\"><img src=\"https://i.imgflip.com/2juom6.jpg\" title=\"made at imgflip.com\"/></a>";
 			}
 
 			// Regular
