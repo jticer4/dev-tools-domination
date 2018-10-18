@@ -35,7 +35,9 @@ console.dir(p);
 console.clear();
 console.log('%c big leage fetch', 'font-size:50px; color:#FF69B4');
 // Grouping together
-
+dogs.forEach(dog => {
+	console.log(`this is ${dog.name} he is ${dog.age} years old`);
+});
 // counting
 
 // timing
