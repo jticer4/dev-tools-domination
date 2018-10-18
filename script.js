@@ -36,11 +36,32 @@ console.clear();
 console.log('%c big leage fetch', 'font-size:50px; color:#FF69B4');
 // Grouping together
 dogs.forEach(dog => {
-	console.group(`${dog.name}`);
+	console.groupCollapsed(`${dog.name}`);
 	console.log(`this is ${dog.name}`);
 	console.log(`${dog.name} is ${dog.age} years old`);
 	console.groupEnd();
 });
 // counting
+console.count('count chocula says ');
+console.count('moo');
+console.count('moo');
+console.count('moo');
+console.count('count chocula says ');
+console.count('count chocula says ');
+console.count('moo');
+console.count('count chocula says ');
+console.count('count chocula says ');
+console.count('count chocula says ');
+console.count('moo');
+console.count('moo');
+console.count('moo');
+console.count('moo');
+console.count('count chocula says ');
+console.count('moo');
+console.count('count chocula says ');
+console.count('count chocula says ');
+console.count('moo');
+console.count('moo');
+console.count('count chocula says ');
 
 // timing
