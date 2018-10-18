@@ -71,4 +71,6 @@ fetch('https://api.github.com/users/jticer4')
 	.then(data => {
 		console.timeEnd('hold up! wait a minute! I\'m fetching your data right now');
 		console.log(data);
+		console.table(data);
 	});
+
