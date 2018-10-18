@@ -65,3 +65,10 @@ console.count('moo');
 console.count('count chocula says ');
 
 // timing
+console.time('hold up! wait a minute! I\'m fetching your data right now');
+fetch('https://api.github.com/users/jticer4')
+	.then(data => data.json())
+	.then(data => {
+		console.timeEnd('hold up! wait a minute! I\'m fetching your data right now');
+		console.log(data);
+	});
